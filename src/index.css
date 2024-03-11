@@ -86,3 +86,51 @@
 .-rotate-360 {
   @apply rotate-[-360deg]
 }
+
+  /*back to top btn*/
+
+
+  .top-to-btm{
+    position: relative;
+  }
+  .icon-position{
+    position: fixed;
+    bottom: 40px;
+    right: 5rem;
+    z-index: 40;
+  }
+  .icon-style{
+    background-color: var(--darker);
+    border: 2px solid #D09CFA;
+    border-radius: 1rem;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+  }
+  .icon-style:hover{
+    animation: none;
+    background: #D09CFA;
+    color: var(--darker);
+    border: 2px solid var(--darker);
+  }
+  @keyframes movebtn {
+    0%{
+      transform: translateY(0px);
+    }
+    25%{
+      transform: translateY(10px);
+    }
+    50%{
+      transform: translateY(0px);
+    }
+    75%{
+      transform: translateY(-10px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+  

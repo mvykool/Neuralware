@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
+import ScrollToTop from "./components/ScrollUp";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Collaboration />
         <Services />
         <Pricing />
+        <ScrollToTop />
         <Roadmap />
         <Footer />
       </div>
