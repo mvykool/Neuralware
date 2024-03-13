@@ -23,7 +23,7 @@ const ScrollToTop = () => {
             {" "}
             {showTopBtn && (
                 <FaAngleUp
-                    className="icon-position icon-style"
+                    className="icon-position icon-style -mr-15 md:mr-0"
                     onClick={goToTop}
                 />
             )}{" "}

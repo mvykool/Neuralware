@@ -1,4 +1,4 @@
-import { curve, heroBackground, service3 } from "../assets";
+import { curve, service3 } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -80,7 +80,7 @@ const Hero = () => {
 
             <Gradient />
           </div>
-          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          {/* <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
               className="w-full"
@@ -88,7 +88,7 @@ const Hero = () => {
               height={1800}
               alt="hero"
             />
-          </div>
+          </div> */}
 
           <BackgroundCircles />
         </div>
